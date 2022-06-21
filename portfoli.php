@@ -80,7 +80,7 @@
                                                 <div class="modal-header">
                                                     <button type="button" class="close"
                                                         data-dismiss="modal">&times;</button>
-                                                    <h5 class="modal-title">Portfolio Add</h5>
+                                                    <h5 class="modal-title">Portfolio Update</h5>
                                                 </div>
 
                                                 <form action="#" class="form-horizontal">

@@ -57,66 +57,24 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h5 class="modal-title">Portfolio Add</h5>
+                                    <h5 class="modal-title">Update Social Link Section</h5>
                                 </div>
 
                                 <form action="#" class="form-horizontal">
                                     <div class="modal-body">
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Name</label>
+                                            <label class="control-label col-sm-3">Social Media</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type your project name"
+                                                <input type="text" placeholder="Type social media name"
                                                     class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Bio</label>
+                                            <label class="control-label col-sm-3">Social Media Link</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type your project short discription "
+                                                <input type="text" placeholder="Type your social media Link "
                                                     class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Catagory</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" placeholder="Select or Type your catagory"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Clint Name</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" placeholder="Clint Name" data-mask="+99-99-9999-9999"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Project
-                                                Language</label>
-                                            <div class="col-sm-9">
-                                                <input type="text"
-                                                    placeholder="Type your project language Ex: HTML, CSS, JavaScript"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Preview
-                                                Link</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" placeholder="Project Preview link"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Image</label>
-                                            <div class="col-sm-9">
-                                                <input type="file" placeholder="" class="form-control">
                                             </div>
                                         </div>
                                     </div>
