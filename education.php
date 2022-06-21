@@ -70,9 +70,9 @@
                                     </div>
 
                                     <div class="panel-body">
-                                        Here you can change the <code> Experience (Year)</code> ,
-                                        <code> Happy Customar</code> , <code>Complet Project</code> ,
-                                        <code> Awards</code> and <code>CV</code> of your webpage.
+                                        Here you can update <code> Exparience Name </code> , <code> Short Bio </code>
+                                        and <code> Year </code>. You can also add your educational qualifications
+                                        through <code> Add Education Degree </code> here.
 
                                         <div class="text-right">
                                             <a href="add_service.php"><button type="button" class="btn btn-primary">Add

@@ -60,7 +60,7 @@
 
                                 <div class="panel panel-flat">
                                     <div class="panel-heading">
-                                        <h5 class="panel-title">Welcome to <b> Social </b> Section</h5>
+                                        <h5 class="panel-title">Welcome to <b>Skill </b> Section</h5>
                                         <div class="heading-elements">
                                             <ul class="icons-list">
                                                 <li><a data-action="collapse"></a></li>
@@ -76,7 +76,7 @@
 
                                         <div class="text-right">
                                             <a href="add_service.php"><button type="button" class="btn btn-primary">Add
-                                                    Social Media Link </button></a>
+                                                    Skill </button></a>
                                         </div>
 
                                     </div>
@@ -87,8 +87,9 @@
                                         <thead>
                                             <tr>
                                                 <th>SN</th>
-                                                <th>Social Media</th>
-                                                <th>Social Media Link</th>
+                                                <th>Skill Name </th>
+                                                <th>Percentage</th>
+                                                <th>Exparience</th>
                                                 <th>Status</th>
                                                 <th class="text-center">Actions</th>
                                             </tr>
@@ -96,8 +97,9 @@
                                         <tbody>
                                             <tr>
                                                 <td>01</td>
-                                                <td>Facebook</td>
-                                                <td>facebook.com</td>
+                                                <td>PHP</td>
+                                                <td>90%</td>
+                                                <td>2022 - Runing</td>
                                                 <td><span class="label label-success">Active</span></td>
                                                 <td class="text-center">
                                                     <ul class="icons-list">

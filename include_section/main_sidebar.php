@@ -58,6 +58,9 @@
                     <li><a href="portfoli.php"><i class="icon-stats-growth"></i>
                             <span>Portfolio</span></a></li>
 
+                    <li><a href="skill.php"><i class="icon-accessibility"></i>
+                            <span>Skil</span></a></li>
+
                     <li><a href="contact.php"><i class="icon-price-tags"></i>
                             <span>Contact Info</span></a></li>
 
