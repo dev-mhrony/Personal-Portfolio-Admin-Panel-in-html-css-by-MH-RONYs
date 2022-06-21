@@ -61,14 +61,12 @@
                         </div>
 
                         <div class="panel-body">
-                            When displaying a table which scrolls along the <code>x-axis</code>, it can sometimes be
-                            useful to the end user for the left most column to be <code>fixed</code> in place, if it
-                            shows grouping, index or similar information. This is basically the same idea as
-                            <code>'freeze columns'</code> in Excel. This can be achieved with the
-                            <code>FixedColumns</code> plug-in for DataTables, as shown below.
+                            Here you will be able to update and remove all the information <code> required</code>
+                            for all kinds of
+                            livelihoods.
                         </div>
 
-                        <table class="table datatable-fixed-both" width="110%">
+                        <table class="table datatable1-fixed-both" width="110%">
                             <thead>
                                 <tr>
                                     <th width="3%">SN</th>
