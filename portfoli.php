@@ -169,9 +169,7 @@
                                         Project </code> here.
 
                                         <div class="text-right">
-                                            <button type="button" class="btn btn-primary" data-toggle="modal"
-                                                data-target="#modal_form_horizontal"
-                                                data-target="#modal_form_horizontal">Add
+                                            <button type="button" class="btn btn-primary">Add
                                                 Project </button>
                                         </div>
 
@@ -211,7 +209,9 @@
                                                 <td><span class="label label-success">Active</span></td>
                                                 <td class="text-center">
                                                     <ul class="icons-list">
-                                                        <li><a href="#"><i class=" icon-pencil7"></i></a>
+                                                        <li><a href="#"><i class=" icon-pencil7" data-toggle="modal"
+                                                                    data-target="#modal_form_horizontal"
+                                                                    data-target="#modal_form_horizontal"></i></a>
                                                         <li><a href="#"><i class="icon-trash"></i></a></li>
                                                         </li>
                                                     </ul>
