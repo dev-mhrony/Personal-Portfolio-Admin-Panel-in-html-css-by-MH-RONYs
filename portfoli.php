@@ -94,61 +94,54 @@
                                                         </div>
 
                                                         <div class="form-group">
-                                                            <label class="control-label col-sm-3">Last name</label>
-                                                            <div class="col-sm-9">
-                                                                <input type="text" placeholder="Kopyov"
-                                                                    class="form-control">
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="form-group">
-                                                            <label class="control-label col-sm-3">Email</label>
-                                                            <div class="col-sm-9">
-                                                                <input type="text" placeholder="eugene@kopyov.com"
-                                                                    class="form-control">
-                                                                <span class="help-block">name@domain.com</span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="form-group">
-                                                            <label class="control-label col-sm-3">Phone #</label>
-                                                            <div class="col-sm-9">
-                                                                <input type="text" placeholder="+99-99-9999-9999"
-                                                                    data-mask="+99-99-9999-9999" class="form-control">
-                                                                <span class="help-block">+99-99-9999-9999</span>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="form-group">
-                                                            <label class="control-label col-sm-3">Address line 1</label>
+                                                            <label class="control-label col-sm-3">Project Bio</label>
                                                             <div class="col-sm-9">
                                                                 <input type="text"
-                                                                    placeholder="Ring street 12, building D, flat #67"
+                                                                    placeholder="Type your project short discription "
                                                                     class="form-control">
                                                             </div>
                                                         </div>
 
                                                         <div class="form-group">
-                                                            <label class="control-label col-sm-3">City</label>
+                                                            <label class="control-label col-sm-3">Catagory</label>
                                                             <div class="col-sm-9">
-                                                                <input type="text" placeholder="Munich"
+                                                                <input type="text"
+                                                                    placeholder="Select or Type your catagory"
                                                                     class="form-control">
                                                             </div>
                                                         </div>
 
                                                         <div class="form-group">
-                                                            <label class="control-label col-sm-3">State/Province</label>
+                                                            <label class="control-label col-sm-3">Clint Name</label>
                                                             <div class="col-sm-9">
-                                                                <input type="text" placeholder="Bayern"
+                                                                <input type="text" placeholder="Clint Name"
+                                                                    data-mask="+99-99-9999-9999" class="form-control">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label class="control-label col-sm-3">Project
+                                                                Language</label>
+                                                            <div class="col-sm-9">
+                                                                <input type="text"
+                                                                    placeholder="Type your project language Ex: HTML, CSS, JavaScript"
                                                                     class="form-control">
                                                             </div>
                                                         </div>
 
                                                         <div class="form-group">
-                                                            <label class="control-label col-sm-3">ZIP code</label>
+                                                            <label class="control-label col-sm-3">Project Preview
+                                                                Link</label>
                                                             <div class="col-sm-9">
-                                                                <input type="text" placeholder="1031"
+                                                                <input type="text" placeholder="Project Preview link"
                                                                     class="form-control">
+                                                            </div>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label class="control-label col-sm-3">Image</label>
+                                                            <div class="col-sm-9">
+                                                                <input type="file" placeholder="" class="form-control">
                                                             </div>
                                                         </div>
                                                     </div>
@@ -164,7 +157,6 @@
                                         </div>
                                     </div>
                                     <!-- /horizontal form modal -->
-
 
 
 
