@@ -88,15 +88,15 @@
                             <tbody>
                                 <tr>
                                     <th>01</th>
-                                    <td>Tiger</td>
-                                    <td>Nixon</td>
-                                    <td>System Architect</td>
-                                    <td>Edinburgh</td>
-                                    <td>61</td>
-                                    <td>2011/04/25</td>
-                                    <td><span class="label label-info">$320,800</span></td>
-                                    <td>5421</td>
-                                    <td><a href="#">t.nixon@datatables.net</a></td>
+                                    <td>MH</td>
+                                    <td>RONY</td>
+                                    <td>21</td>
+                                    <td>Bangladesh</td>
+                                    <td>Avable</td>
+                                    <td>Sonatola, Bogura , BD</td>
+                                    <td>+880 1608445456</td>
+                                    <td>designer.mhrony@gmail.com</td>
+                                    <td>Bangla , English</td>
                                     <td class="text-center">
                                         <ul class="icons-list">
                                             <li><a href="#"><i class=" icon-pencil7"></i></a>
