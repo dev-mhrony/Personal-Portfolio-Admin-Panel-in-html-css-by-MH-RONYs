@@ -146,14 +146,8 @@
 
                     <!-- Dashboard content -->
                     <div class="row">
-                        <div class="col-lg-8">
-                            <!-- Quick stats boxes -->
-                            <div class="row">
 
 
-                            </div>
-
-                        </div>
 
 
                     </div>
