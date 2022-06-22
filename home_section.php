@@ -6,6 +6,7 @@
 
     <?php
 	include "header_link_file.php";
+    include "./config/server_connect.php";
 	?>
 
 </head>
@@ -140,6 +141,12 @@
                             <!-- Quick stats boxes -->
                             <div class="row">
 
+                                <?php 
+                                
+
+                                
+                                
+                                ?>
 
                                 <div class="panel panel-flat">
                                     <div class="panel-heading">
