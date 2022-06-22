@@ -163,17 +163,12 @@
                                         Project </code> here.
 
                                         <div class="text-right">
-                                            <button type="button" class="btn btn-primary">Add
-                                                Project </button>
+                                            <a href="add_portfolio.php"><button type="button"
+                                                    class="btn btn-primary">Add
+                                                    Project </button></a>
                                         </div>
 
                                     </div>
-
-
-
-
-
-
 
                                     <table class="table datatable-basic table-bordered table-striped table-hover">
                                         <thead>

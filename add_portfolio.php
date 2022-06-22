@@ -57,21 +57,21 @@
                             <div class="modal-content">
                                 <div class="modal-header">
 
-                                    <h5 class="modal-title">Add Exparience</h5>
+                                    <h5 class="modal-title">Add Portfolio</h5>
                                 </div>
 
                                 <form action="#" class="form-horizontal">
                                     <div class="modal-body">
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Company Name</label>
+                                            <label class="control-label col-sm-3">Project Name</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type your last company name"
+                                                <input type="text" placeholder="Type your last Project Name"
                                                     class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Short Bio</label>
+                                            <label class="control-label col-sm-3">Project Bio</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your project short discription "
                                                     class="form-control">
@@ -79,26 +79,49 @@
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Start Job Date</label>
+                                            <label class="control-label col-sm-3">Catagory</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type join year" class="form-control">
+                                                <input type="text" placeholder="Type Catagory" class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">End Job Date</label>
+                                            <label class="control-label col-sm-3">Clint Name</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type your end job year"
+                                                <input type="text" placeholder="Type your Clint Name"
                                                     class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-3">Project Language</label>
+                                            <div class="col-sm-9">
+                                                <input type="text" placeholder="Type your Project Language"
+                                                    class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-3">Project Preview Link</label>
+                                            <div class="col-sm-9">
+                                                <input type="text" placeholder="Type your Project Preview Link"
+                                                    class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-3">Image</label>
+                                            <div class="col-sm-9">
+                                                <input type="file" class="form-control">
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="modal-footer">
-                                        <a href="education.php"><button type="button" class="btn btn-link"
-                                                data-dismiss="modal">Back to Education list
+                                        <a href="portfoli.php"><button type="button" class="btn btn-link"
+                                                data-dismiss="modal">Back to Portfolio list
                                             </button></a>
-                                        <button type="submit" class="btn btn-primary">Add Exparience</button>
+                                        <button type="submit" class="btn btn-primary">Add Portfolio</button>
                                     </div>
                                 </form>
                             </div>
