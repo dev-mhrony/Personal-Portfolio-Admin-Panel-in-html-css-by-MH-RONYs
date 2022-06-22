@@ -51,6 +51,36 @@
 
                     <!-- Dashboard content -->
                     <div class="row">
+                        <!-- Cover area -->
+                        <div class="profile-cover">
+                            <div class="profile-cover-img" style="background-image: url(assets/images/cover.jpg)"></div>
+                            <div class="media">
+                                <div class="media-left">
+                                    <a href="#" class="profile-thumb">
+                                        <img src="assets/images/placeholder.jpg" class="img-circle" alt="">
+                                    </a>
+                                </div>
+
+                                <div class="media-body">
+                                    <h1>Hanna Dorman <small class="display-block">UX/UI designer</small></h1>
+                                </div>
+
+                                <div class="media-right media-middle">
+                                    <ul class="list-inline list-inline-condensed no-margin-bottom text-nowrap">
+                                        <li><a href="#" class="btn btn-default"><i
+                                                    class="icon-camera position-left"></i> Change Profile</a>
+                                        </li>
+                                        <li><a href="#" class="btn btn-default"><i class="icon-images2 position-left">
+                                                </i> Channge
+                                                Cover image</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /cover area -->
+
+
+
 
                         <!-- Profile info -->
                         <div class="panel panel-flat">
@@ -68,13 +98,17 @@
                                 <form action="#">
                                     <div class="form-group">
                                         <div class="row">
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
                                                 <label>Fast Name</label>
                                                 <input type="text" placeholder="Last Name" class="form-control">
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
                                                 <label>Last Name</label>
                                                 <input type="text" placeholder="Last Name" class="form-control">
+                                            </div>
+                                            <div class="col-md-4">
+                                                <label>Pashon</label>
+                                                <input type="text" placeholder="type your pesohon" class="form-control">
                                             </div>
                                         </div>
                                     </div>
@@ -97,8 +131,7 @@
                                     </div>
 
                                     <div class="text-right">
-                                        <button type="submit" class="btn btn-primary">Save <i
-                                                class="icon-arrow-right14 position-right"></i></button>
+                                        <button type="submit" class="btn btn-primary">Save</button>
                                     </div>
                                 </form>
                             </div>

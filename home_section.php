@@ -161,7 +161,8 @@
                                     <table class="table datatable-basic table-bordered table-striped table-hover">
                                         <thead>
                                             <tr>
-                                                <th>Name</th>
+                                                <th>SN</th>
+                                                <th>Your Name</th>
                                                 <th>Description</th>
                                                 <th>Link</th>
                                                 <th>Image</th>
@@ -171,6 +172,7 @@
                                         </thead>
                                         <tbody>
                                             <tr>
+                                                <td>01</td>
                                                 <td>Marth</td>
                                                 <td>Enright</td>
                                                 <td>Traffic Court Referee</td>
