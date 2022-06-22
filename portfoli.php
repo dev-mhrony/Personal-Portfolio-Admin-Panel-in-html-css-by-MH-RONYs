@@ -17,6 +17,7 @@
 
     <?php
 	include "./include_section/top_navbar.php";
+    include "./config/server_connect.php";
 	?>
 
     <!-- /main navbar -->
@@ -68,9 +69,6 @@
                                             </ul>
                                         </div>
                                     </div>
-
-
-
                                     <!--==============================================================  -->
                                     <!-- Horizontal form modal -->
                                     <div id="modal_form_horizontal" class="modal fade">
@@ -186,16 +184,42 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+
+                                            <?php 
+                                            
+                                            $selectQry = "SELECT * FROM  portfolio";
+                                            $portfolio_list = mysqli_query($db_config, $selectQry);
+                                            
+                                            foreach($portfolio_list as $key => $portfolio){
+                                                
+                                            
+                                            ?>
+
+                                            <?php 
+
+                                               $status = $portfolio['status'];
+                                               
+                                               if($status == 1){
+                                                    $status = "Active";
+                                               }else{
+                                                    $status = "Deactive";
+                                               }
+                                               
+
+                                            ?>
+
                                             <tr>
-                                                <td>01</td>
-                                                <td>Admin Panel</td>
-                                                <td>Web Developer project file</td>
-                                                <td>Web Development </td>
-                                                <td>Korim </td>
-                                                <td>HTML, CSS, Javascript</td>
-                                                <td>preview.com</td>
-                                                <td><img src="" alt="not found"> img.jpg </td>
-                                                <td><span class="label label-success">Active</span></td>
+                                                <td><?php echo ++$key ?></td>
+                                                <td><?php echo $portfolio['project_name'] ?></td>
+                                                <td><?php echo $portfolio['project_bio'] ?></td>
+                                                <td><?php echo $portfolio['category'] ?></td>
+                                                <td><?php echo $portfolio['clint_name'] ?></td>
+                                                <td><?php echo $portfolio['project_language'] ?></td>
+                                                <td><?php echo $portfolio['project_preview_link'] ?></td>
+                                                <td><img src="" alt="not found">
+                                                    <?php echo $portfolio['image'] ?> </td>
+                                                <td><span class="label label-success"><?php echo $status ?></span>
+                                                </td>
                                                 <td class="text-center">
                                                     <ul class="icons-list">
                                                         <li><a href="#"><i class=" icon-pencil7" data-toggle="modal"
@@ -206,6 +230,8 @@
                                                     </ul>
                                                 </td>
                                             </tr>
+
+                                            <?php } ?>
                                         </tbody>
                                     </table>
                                 </div>
