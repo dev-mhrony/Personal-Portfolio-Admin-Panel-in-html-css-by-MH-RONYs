@@ -6,6 +6,7 @@
 
     <?php
 	include "header_link_file.php";
+    include "./config/server_connect.php";
 	?>
 
 </head>
@@ -133,11 +134,30 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+
+                                            <?php 
+                                            $selectQry = "SELECT * FROM social_media";
+                                            $social_media_list = mysqli_query($db_config, $selectQry);
+                                            foreach($social_media_list as $key => $social_media){
+                                                
+                                            
+                                            ?>
+
+                                            <?php 
+                                            $status = $social_media['status'];
+                                            if($status == 1){
+                                                $status = "Active";
+                                            }else{
+                                                $status = "Deactive";
+                                            }
+                                            ?>
+
+
                                             <tr>
-                                                <td>01</td>
-                                                <td>Facebook</td>
-                                                <td>facebook.com</td>
-                                                <td><span class="label label-success">Active</span></td>
+                                                <td><?php echo ++$key?></td>
+                                                <td><?php echo $social_media['social_media_name'] ?></td>
+                                                <td><?php echo $social_media['social_media_link'] ?></td>
+                                                <td><span class="label label-success"><?php echo $status ?> </span></td>
                                                 <td class="text-center">
                                                     <ul class="icons-list">
                                                         <li><a href="#"><i class=" icon-pencil7" data-toggle="modal"
@@ -148,6 +168,8 @@
                                                     </ul>
                                                 </td>
                                             </tr>
+
+                                            <?php } ?>
                                         </tbody>
                                     </table>
                                 </div>

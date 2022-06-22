@@ -6,6 +6,7 @@
 
     <?php
 	include "header_link_file.php";
+    include "./config/server_connect.php";
 	?>
 
 </head>
@@ -152,13 +153,32 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+
+                                            <?php 
+                                            $selectQry = "SELECT * FROM education";
+                                            $education_list = mysqli_query($db_config, $selectQry);
+                                            foreach($education_list as $key => $education){
+                                                
+                                            
+                                            ?>
+
+                                            <?php 
+                                            $status = $education['status'];
+                                            if($status == 1){
+                                                $status = "Active";
+                                            }else{
+                                                $status = "Deactive";
+                                            }
+                                            ?>
+
+
                                             <tr>
-                                                <td>01</td>
-                                                <td>Bsc in CSE</td>
-                                                <td>I Love programing</td>
-                                                <td>2020</td>
-                                                <td>Runing</td>
-                                                <td><span class="label label-success">Active</span></td>
+                                                <td><?php echo ++$key ?></td>
+                                                <td><?php echo $education['education_name'] ?></td>
+                                                <td><?php echo $education['short_bio'] ?></td>
+                                                <td><?php echo $education['start_year'] ?></td>
+                                                <td><?php echo $education['end_year'] ?></td>
+                                                <td><span class="label label-success"><?php echo $status ?></span></td>
                                                 <td class="text-center">
                                                     <ul class="icons-list">
                                                         <li><a href="#"><i class=" icon-pencil7" data-toggle="modal"
@@ -169,6 +189,7 @@
                                                     </ul>
                                                 </td>
                                             </tr>
+                                            <?php } ?>
                                         </tbody>
                                     </table>
                                 </div>

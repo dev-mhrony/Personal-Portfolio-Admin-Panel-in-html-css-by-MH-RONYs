@@ -6,6 +6,7 @@
 
     <?php
 	include "header_link_file.php";
+    include "./config/server_connect.php";
 	?>
 
 </head>
@@ -153,13 +154,31 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+
+                                            <?php 
+                                            $selectQry = "SELECT * FROM contact";
+                                            $contact_list = mysqli_query($db_config, $selectQry);
+                                            foreach($contact_list as $key => $contact){
+                                                
+                                            
+                                            ?>
+
+                                            <?php 
+                                            $status = $contact['status'];
+                                            if($status == 1){
+                                                $status = "Active";
+                                            }else{
+                                                $status = "Deactive";
+                                            }
+                                            ?>
+
                                             <tr>
-                                                <td>01</td>
-                                                <td>ABC</td>
-                                                <td>Web Developer</td>
-                                                <td>2020</td>
-                                                <td>Runing</td>
-                                                <td><span class="label label-success">Active</span></td>
+                                                <td><?php echo ++$key ?></td>
+                                                <td><?php echo $contact['title'] ?></td>
+                                                <td><?php echo $contact['short_bio'] ?></td>
+                                                <td><?php echo $contact['email'] ?></td>
+                                                <td><?php echo $contact['phone_number'] ?></td>
+                                                <td><span class="label label-success"><?php echo $status ?></span></td>
                                                 <td class="text-center">
                                                     <ul class="icons-list">
                                                         <li><a href="#"><i class=" icon-pencil7" data-toggle="modal"
@@ -170,6 +189,7 @@
                                                     </ul>
                                                 </td>
                                             </tr>
+                                            <?php } ?>
                                         </tbody>
                                     </table>
                                 </div>
