@@ -64,7 +64,6 @@
                                         <h5 class="panel-title">Welcome to <b>Project </b> Upload Section</h5>
                                         <div class="heading-elements">
                                             <ul class="icons-list">
-                                                <li><a data-action="collapse"></a></li>
                                                 <li><a data-action="reload"></a></li>
                                             </ul>
                                         </div>
@@ -115,7 +114,7 @@
                                                             <label class="control-label col-sm-3">Clint Name</label>
                                                             <div class="col-sm-9">
                                                                 <input type="text" placeholder="Clint Name"
-                                                                    data-mask="+99-99-9999-9999" class="form-control">
+                                                                    class="form-control">
                                                             </div>
                                                         </div>
 
@@ -157,11 +156,6 @@
                                         </div>
                                     </div>
                                     <!-- /horizontal form modal -->
-
-
-
-
-
 
                                     <div class="panel-body">
                                         Here you can update <code> Project Name </code> , <code> Project Bio </code> and
