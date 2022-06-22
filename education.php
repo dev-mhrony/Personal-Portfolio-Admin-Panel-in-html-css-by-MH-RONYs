@@ -130,7 +130,8 @@
                                         through <code> Add Education Degree </code> here.
 
                                         <div class="text-right">
-                                            <a href="add_service.php"><button type="button" class="btn btn-primary">Add
+                                            <a href="education_add_info.php"><button type="button"
+                                                    class="btn btn-primary">Add
                                                     Education Degree</button></a>
                                         </div>
 

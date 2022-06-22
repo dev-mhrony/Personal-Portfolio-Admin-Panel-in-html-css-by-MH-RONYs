@@ -131,7 +131,8 @@
                                         <code> Add Education Degree </code> here.
 
                                         <div class="text-right">
-                                            <a href="add_service.php"><button type="button" class="btn btn-primary">Add
+                                            <a href="add_exparience.php"><button type="button"
+                                                    class="btn btn-primary">Add
                                                     Exparience</button></a>
                                         </div>
 
