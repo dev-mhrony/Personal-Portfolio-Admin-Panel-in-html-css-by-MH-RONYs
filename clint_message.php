@@ -233,7 +233,8 @@
                                         <div class="col-xs-6">
                                             <ul class="icons-list icons-list-extended mt-10">
                                                 <li><a href="#" data-popup="tooltip" title="Send photo"
-                                                        data-container="body"><i class="icon-file-picture"></i></a></li>
+                                                        data-container="body"><i class="icon-file-picture" ile"></i></a>
+                                                </li>
                                                 <li><a href="#" data-popup="tooltip" title="Send video"
                                                         data-container="body"><i class="icon-file-video"></i></a></li>
                                                 <li><a href="#" data-popup="tooltip" title="Send file"
