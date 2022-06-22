@@ -56,74 +56,85 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h5 class="modal-title">Portfolio Add</h5>
+                                    <h5 class="modal-title">Update About</h5>
                                 </div>
 
                                 <form action="#" class="form-horizontal">
                                     <div class="modal-body">
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Name</label>
+                                            <label class="control-label col-sm-3">First Name</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type your project name"
+                                                <input type="text" placeholder="Type your fast name"
                                                     class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Bio</label>
+                                            <label class="control-label col-sm-3">Lirst Name</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type your project short discription "
+                                                <input type="text" placeholder="Type your project lirst name "
                                                     class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Catagory</label>
+                                            <label class="control-label col-sm-3">Date Of Birth Year</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Select or Type your catagory"
+                                                <input type="number" placeholder="Type your date of birth year"
                                                     class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Clint Name</label>
+                                            <label class="control-label col-sm-3">Nationality</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Clint Name" data-mask="+99-99-9999-9999"
+                                                <input type="text" placeholder="Type your nationality"
                                                     class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project
-                                                Language</label>
+                                            <label class="control-label col-sm-3">Freelance</label>
                                             <div class="col-sm-9">
-                                                <input type="text"
-                                                    placeholder="Type your project language Ex: HTML, CSS, JavaScript"
+                                                <input type="text" placeholder="Are your Freelance?"
                                                     class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Preview
-                                                Link</label>
+                                            <label class="control-label col-sm-3">Address</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Project Preview link"
+                                                <input type="text" placeholder="Location" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-3">Phone Number</label>
+                                            <div class="col-sm-9">
+                                                <input type="number" placeholder="" class="form-control">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="control-label col-sm-3">E-mail</label>
+                                            <div class="col-sm-9">
+                                                <input type="email" placeholder="Type your Contact E-mail"
                                                     class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Image</label>
+                                            <label class="control-label col-sm-3">Langages</label>
                                             <div class="col-sm-9">
-                                                <input type="file" placeholder="" class="form-control">
+                                                <input type="text" placeholder="Type your Speek Langages"
+                                                    class="form-control">
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn btn-primary">Submit
-                                            form</button>
+                                        <button type="submit" class="btn btn-primary">Update Info</button>
                                     </div>
                                 </form>
                             </div>
@@ -136,7 +147,7 @@
                     <!-- Left fixed column -->
                     <div class="panel panel-flat">
                         <div class="panel-heading">
-                            <h5 class="panel-title">Welcome to About Info Section </h5>
+                            <h5 class="panel-title">Welcome to <code>About</code> Info Section </h5>
                             <div class="heading-elements">
                                 <ul class="icons-list">
                                     <li><a data-action="collapse"></a></li>
@@ -151,12 +162,12 @@
                             livelihoods.
                         </div>
 
-                        <table class="table datatable1-fixed-both" width="110%">
+                        <table class="table datatable-fixed-both" width="110%">
                             <thead>
                                 <tr>
                                     <th width="3%">SN</th>
-                                    <th width="10%">First name</th>
-                                    <th width="10%">Last name</th>
+                                    <th width="10%">First Name</th>
+                                    <th width="10%">Last Name</th>
                                     <th width="5%">Age</th>
                                     <th width="10%">Nationality</th>
                                     <th width="10%">Freelance</th>
