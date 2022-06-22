@@ -141,12 +141,7 @@
                             <!-- Quick stats boxes -->
                             <div class="row">
 
-                                <?php 
-                                
 
-                                
-                                
-                                ?>
 
                                 <div class="panel panel-flat">
                                     <div class="panel-heading">
@@ -177,13 +172,37 @@
                                             </tr>
                                         </thead>
                                         <tbody>
+                                            <?php 
+                                
+                                            $selectQry = "SELECT * FROM home_edit_section";
+                                            
+                                            $home_section_list = mysqli_query($db_config , $selectQry);
+                                            foreach ($home_section_list as $key => $home){
+                                    
+                        
+                                            ?>
+
+
+                                            <!-- ============== Active Status Show in Result 1 to active =============== -->
+                                            <?php
+                                             $status = $home ['status'];
+                                             
+                                             if($status == 1){
+                                                $status = "Active";
+                                             }else{
+                                                $status = "In-Active";
+                                            }
+                                            ?>
+
                                             <tr>
-                                                <td>01</td>
-                                                <td>Marth</td>
-                                                <td>Enright</td>
-                                                <td>Traffic Court Referee</td>
-                                                <td>22 Jun 1972</td>
-                                                <td><span class="label label-success">Active</span></td>
+                                                <td><?php echo ++$key?>
+                                                </td>
+                                                <td><?php echo $home ['your_name']?></td>
+                                                <td><?php echo $home ['description']?></td>
+                                                <td><?php echo $home ['link']?></td>
+                                                <td><?php echo $home ['image']?></td>
+                                                <td><span class="label label-success"><?php echo $status ?></span>
+                                                </td>
                                                 <td class="text-center">
                                                     <ul class="icons-list">
                                                         <li><a href="#"><i class=" icon-pencil7" data-toggle="modal"
@@ -193,6 +212,11 @@
                                                     </ul>
                                                 </td>
                                             </tr>
+
+                                            <?php 
+                                             };
+                                            ?>
+
                                         </tbody>
                                     </table>
                                 </div>

@@ -6,6 +6,8 @@
 
     <?php
 	include "header_link_file.php";
+    include "./config/server_connect.php";
+    
 	?>
 
 </head>
@@ -151,14 +153,25 @@
                                                 <th class="text-center">Actions</th>
                                             </tr>
                                         </thead>
+
                                         <tbody>
+                                            <?php
+                                
+                                                $selectQry = "SELECT * FROM about_work";
+                                                $about_work_info = mysqli_query($db_config, $selectQry);
+                                                foreach($about_work_info as $key => $about_work){
+                                
+                                            ?>
+
                                             <tr>
-                                                <td>01</td>
-                                                <td>2 Year</td>
-                                                <td>49+</td>
-                                                <td>78</td>
-                                                <td><span class="label label-success">10+</span></td>
-                                                <td>abc.pdf</td>
+                                                <td><?php echo ++$key ?></td>
+                                                <td><?php echo $about_work ['experience_by_year']." +" ?></td>
+                                                <td><?php echo $about_work ['happy_customar']." +" ?></td>
+                                                <td><?php echo $about_work ['complet_project']." +" ?></td>
+                                                <td><span
+                                                        class="label label-success"><?php echo $about_work ['awards']." +" ?></span>
+                                                </td>
+                                                <td><?php echo $about_work ['cv'] ?></td>
                                                 <td class="text-center">
                                                     <ul class="icons-list">
                                                         <li><a href="#"><i class=" icon-pencil7" data-toggle="modal"
@@ -168,6 +181,7 @@
                                                     </ul>
                                                 </td>
                                             </tr>
+                                            <?php }?>
                                         </tbody>
                                     </table>
                                 </div>

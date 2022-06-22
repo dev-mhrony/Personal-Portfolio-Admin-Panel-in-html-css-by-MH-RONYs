@@ -6,6 +6,7 @@
 
     <?php
 	include "header_link_file.php";
+    include "./config/server_connect.php";
 	?>
 
 </head>
@@ -163,6 +164,8 @@
 
                         <table class="table datatable-fixed-both" width="110%">
                             <thead>
+
+
                                 <tr>
                                     <th width="3%">SN</th>
                                     <th width="10%">First Name</th>
@@ -179,17 +182,24 @@
                                 </tr>
                             </thead>
                             <tbody>
+                                <?php
+                                
+                                $selectQry = "SELECT * FROM about_info";
+                                $about_info_list = mysqli_query($db_config, $selectQry);
+                                foreach($about_info_list as $key => $about_info){
+                                
+                                ?>
                                 <tr>
-                                    <th>01</th>
-                                    <td>MH</td>
-                                    <td>RONY</td>
-                                    <td>21</td>
-                                    <td>Bangladesh</td>
-                                    <td>Avable</td>
-                                    <td>Sonatola, Bogura , BD</td>
-                                    <td>+880 1608445456</td>
-                                    <td>designer.mhrony@gmail.com</td>
-                                    <td>Bangla , English</td>
+                                    <th><?php echo ++$key ?></th>
+                                    <td><?php echo $about_info['fast_name'] ?></td>
+                                    <td><?php echo $about_info['last_name'] ?></td>
+                                    <td><?php echo $about_info['age'] ?></td>
+                                    <td><?php echo $about_info['nationality'] ?></td>
+                                    <td><?php echo $about_info['freelance'] ?></td>
+                                    <td><?php echo $about_info['address'] ?></td>
+                                    <td><?php echo $about_info['phone_number'] ?></td>
+                                    <td><?php echo $about_info['email'] ?></td>
+                                    <td><?php echo $about_info['language'] ?></td>
                                     <td class="text-center">
                                         <ul class="icons-list">
                                             <li><a href="#"><i class=" icon-pencil7" data-toggle="modal"
@@ -199,6 +209,8 @@
                                         </ul>
                                     </td>
                                 </tr>
+
+                                <?php } ?>
 
                             </tbody>
                         </table>
