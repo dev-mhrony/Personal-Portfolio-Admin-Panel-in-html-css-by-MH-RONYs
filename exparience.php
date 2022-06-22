@@ -58,21 +58,21 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h5 class="modal-title">Portfolio Add</h5>
+                                    <h5 class="modal-title">Update Exparience</h5>
                                 </div>
 
                                 <form action="#" class="form-horizontal">
                                     <div class="modal-body">
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Name</label>
+                                            <label class="control-label col-sm-3">Company Name</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type your project name"
+                                                <input type="text" placeholder="Type your company name"
                                                     class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Bio</label>
+                                            <label class="control-label col-sm-3">Short Bio</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your project short discription "
                                                     class="form-control">
@@ -80,52 +80,24 @@
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Catagory</label>
+                                            <label class="control-label col-sm-3">Start Job Date</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Select or Type your catagory"
+                                                <input type="date" placeholder="Select or Type your catagory"
                                                     class="form-control">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Clint Name</label>
+                                            <label class="control-label col-sm-3">End Job Date</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Clint Name" data-mask="+99-99-9999-9999"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Project
-                                                Language</label>
-                                            <div class="col-sm-9">
-                                                <input type="text"
-                                                    placeholder="Type your project language Ex: HTML, CSS, JavaScript"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Preview
-                                                Link</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" placeholder="Project Preview link"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Image</label>
-                                            <div class="col-sm-9">
-                                                <input type="file" placeholder="" class="form-control">
+                                                <input type="text" placeholder="Clint Name" class="form-control">
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn btn-primary">Submit
-                                            form</button>
+                                        <button type="submit" class="btn btn-primary">Update</button>
                                     </div>
                                 </form>
                             </div>
@@ -174,7 +146,8 @@
                                                 <th>SN</th>
                                                 <th>Company Name </th>
                                                 <th>Short Bio</th>
-                                                <th>Year</th>
+                                                <th>Start Jobe Date</th>
+                                                <th>End Jobe Date</th>
                                                 <th>Status</th>
                                                 <th class="text-center">Actions</th>
                                             </tr>
@@ -184,7 +157,8 @@
                                                 <td>01</td>
                                                 <td>ABC</td>
                                                 <td>Web Developer</td>
-                                                <td>2020 - Runing</td>
+                                                <td>2020</td>
+                                                <td>Runing</td>
                                                 <td><span class="label label-success">Active</span></td>
                                                 <td class="text-center">
                                                     <ul class="icons-list">
