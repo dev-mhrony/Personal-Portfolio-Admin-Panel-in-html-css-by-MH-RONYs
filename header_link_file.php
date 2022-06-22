@@ -31,6 +31,7 @@
 <script type="text/javascript" src="assets/js/plugins/ui/moment/moment.min.js"></script>
 <script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js"></script>
 <script type="text/javascript" src="assets/js/pages/datatables_extension_fixed_columns.js"></script>
+<script type="text/javascript" src="assets/js/pages/support_chat_layouts.js"></script>
 
 <script type="text/javascript" src="assets/js/core/app.js"></script>
 <script type="text/javascript" src="assets/js/pages/dashboard.js"></script>

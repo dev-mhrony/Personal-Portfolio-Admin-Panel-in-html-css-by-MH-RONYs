@@ -146,7 +146,7 @@
                                         <h5 class="panel-title">Welcome to Home Edit Section</h5>
                                         <div class="heading-elements">
                                             <ul class="icons-list">
-                                                <li><a data-action="collapse"></a></li>
+
                                                 <li><a data-action="reload"></a></li>
                                             </ul>
                                         </div>
