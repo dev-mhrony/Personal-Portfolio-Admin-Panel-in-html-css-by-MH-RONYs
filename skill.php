@@ -122,7 +122,7 @@
                                         through <code> Add Education Degree </code> here.
 
                                         <div class="text-right">
-                                            <a href="add_service.php"><button type="button" class="btn btn-primary">Add
+                                            <a href="add_skill.php"><button type="button" class="btn btn-primary">Add
                                                     Skill </button></a>
                                         </div>
 

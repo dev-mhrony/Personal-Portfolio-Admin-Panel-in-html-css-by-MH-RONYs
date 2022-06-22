@@ -108,12 +108,13 @@
                                     </div>
 
                                     <div class="panel-body">
-                                        Here you can update <code> Exparience Name </code> , <code> Short Bio </code>
+                                        Here you can update <code> Social Media Name </code> , <code> Short Bio </code>
                                         and <code> Year </code>. You can also add your educational qualifications
                                         through <code> Add Education Degree </code> here.
 
                                         <div class="text-right">
-                                            <a href="add_service.php"><button type="button" class="btn btn-primary">Add
+                                            <a href="add_socialmedia.php"><button type="button"
+                                                    class="btn btn-primary">Add
                                                     Social Media Link </button></a>
                                         </div>
 
