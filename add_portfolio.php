@@ -63,49 +63,52 @@
                                 <form action="#" class="form-horizontal">
                                     <div class="modal-body">
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Name</label>
+                                            <label class="control-label col-sm-3" for="projectName">Project Name</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your last Project Name"
-                                                    class="form-control">
+                                                    class="form-control" id="projectName">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Bio</label>
+                                            <label class="control-label col-sm-3" for="projectBio">Project Bio</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your project short discription "
-                                                    class="form-control">
+                                                    class="form-control" id="projectBio">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Catagory</label>
+                                            <label class="control-label col-sm-3" for="catagory">Catagory</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type Catagory" class="form-control">
+                                                <input type="text" placeholder="Type Catagory" class="form-control"
+                                                    id="catagory">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Clint Name</label>
+                                            <label class="control-label col-sm-3" for="cintName">Clint Name</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your Clint Name"
-                                                    class="form-control">
+                                                    class="form-control" id="cintName">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Language</label>
+                                            <label class="control-label col-sm-3" for="projectLanguage">Project
+                                                Language</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your Project Language"
-                                                    class="form-control">
+                                                    class="form-control" id="projectLanguage">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Preview Link</label>
+                                            <label class="control-label col-sm-3" for="projectPreview">Project Preview
+                                                Link</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your Project Preview Link"
-                                                    class="form-control">
+                                                    class="form-control" id="projectPreview">
                                             </div>
                                         </div>
 

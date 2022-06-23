@@ -63,33 +63,35 @@
                                 <form action="#" class="form-horizontal">
                                     <div class="modal-body">
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Company Name</label>
+                                            <label class="control-label col-sm-3" for="companyName">Company Name</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your last company name"
-                                                    class="form-control">
+                                                    class="form-control" id="companyName">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Short Bio</label>
+                                            <label class="control-label col-sm-3" for="shortBio">Short Bio</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your project short discription "
-                                                    class="form-control">
+                                                    class="form-control" id="shortBio">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Start Job Date</label>
+                                            <label class="control-label col-sm-3" for="start_date">Start Job
+                                                Date</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type join year" class="form-control">
+                                                <input type="text" placeholder="Type join year" class="form-control"
+                                                    id="start_date">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">End Job Date</label>
+                                            <label class="control-label col-sm-3" for="end_date">End Job Date</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your end job year"
-                                                    class="form-control">
+                                                    class="form-control" id="end_date">
                                             </div>
                                         </div>
                                     </div>
