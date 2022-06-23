@@ -63,10 +63,10 @@
                                 <form action="#" class="form-horizontal">
                                     <div class="modal-body">
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3"> Skill Name</label>
+                                            <label class="control-label col-sm-3" for="Skill"> Skill Name</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your last Skill Name"
-                                                    class="form-control">
+                                                    class="form-control" id="Skill">
                                             </div>
                                         </div>
 
