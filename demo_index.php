@@ -50,110 +50,42 @@
                 <div class="content">
 
 
-
                     <!-- Horizontal form modal -->
-                    <div id="modal_form_horizontal" class="modal fade">
+                    <div id="modal_form_horizontal">
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">
-                                <div class="modal-header">
-                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h5 class="modal-title">Portfolio Add</h5>
-                                </div>
-
-                                <form action="#" class="form-horizontal">
+                                <form action="" class="form-horizontal">
                                     <div class="modal-body">
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Name</label>
+                                            <label class="control-label col-sm-3" for="Social"> Social Media
+                                                Name</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type your project name"
-                                                    class="form-control">
+                                                <input type="text" placeholder="Type your Social Media Name"
+                                                    class="form-control" id="Social">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Bio</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" placeholder="Type your project short discription "
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Catagory</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" placeholder="Select or Type your catagory"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Clint Name</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" placeholder="Clint Name" data-mask="+99-99-9999-9999"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Project
-                                                Language</label>
-                                            <div class="col-sm-9">
-                                                <input type="text"
-                                                    placeholder="Type your project language Ex: HTML, CSS, JavaScript"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Preview
+                                            <label class="control-label col-sm-3" for="SocialLink"> Social Media
                                                 Link</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Project Preview link"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Image</label>
-                                            <div class="col-sm-9">
-                                                <input type="file" placeholder="" class="form-control">
+                                                <input type="text" placeholder="Type your Social Media Link "
+                                                    class="form-control" id="SocialLink">
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn btn-primary">Submit
-                                            form</button>
+                                        <a href="social_link.php"><button type="button" class="btn btn-link"
+                                                data-dismiss="modal">Back to Social Media List
+                                            </button></a>
+                                        <button type="submit" class="btn btn-primary">Add Social Media</button>
                                     </div>
                                 </form>
                             </div>
                         </div>
                     </div>
                     <!-- /horizontal form modal -->
-
-                    <td class="text-center">
-                        <ul class="icons-list">
-                            <li><a href="#"><i class=" icon-pencil7" data-toggle="modal"
-                                        data-target="#modal_form_horizontal"
-                                        data-target="#modal_form_horizontal"></i></a>
-                            <li><a href="#"><i class="icon-trash"></i></a></li>
-                            </li>
-                        </ul>
-                    </td>
-
-
-
-                    <!-- Dashboard content -->
-                    <div class="row">
-
-
-
-
-                    </div>
-                    <!-- /dashboard content -->
-
-
                     <!-- Footer -->
                     <div class="footer text-muted">
                         &copy; 2022. <a href="#">Ghasful</a> by <a href="" target="_blank">MH RONY</a>

@@ -6,6 +6,7 @@
 
     <?php
 	include "header_link_file.php";
+    include "./config/server_connect.php";
 	?>
 
 </head>
@@ -49,8 +50,6 @@
                 <!-- Content area -->
                 <div class="content">
 
-
-
                     <!-- Horizontal form modal -->
                     <div id="modal_form_horizontal">
                         <div class="modal-dialog modal-lg">
@@ -60,47 +59,47 @@
                                     <h5 class="modal-title">Add Education / Qualifications</h5>
                                 </div>
 
-                                <form action="#" class="form-horizontal">
+                                <form class="form-horizontal" action="config/education_controlar.php" method="POST">
                                     <div class="modal-body">
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Education Name</label>
+                                            <label class="control-label col-sm-3" for="educationName">Education
+                                                Name</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your last education name"
-                                                    class="form-control">
+                                                    class="form-control" id="educationName" name="educationName">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Short Bio</label>
+                                            <label class="control-label col-sm-3" for="shortBio">Short Bio</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your project short discription "
-                                                    class="form-control">
+                                                    class="form-control" id="shortBio" name="shortBio">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Start Year</label>
+                                            <label class="control-label col-sm-3" for="startYear">Start Year</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type start year" class="form-control">
+                                                <input type="number" placeholder="Type start year" class="form-control"
+                                                    id="startYear" name="startYear">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">End Year</label>
+                                            <label class="control-label col-sm-3" for="endYear">End Year</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type your end year"
-                                                    class="form-control">
+                                                <input type="number" placeholder="Type your end year"
+                                                    class="form-control" id="endYear" name="endYear">
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="modal-footer">
                                         <a href="education.php"><button type="button" class="btn btn-link"
-                                                data-dismiss="modal">Back
-                                                to
-                                                Education Page
+                                                data-dismiss="modal">Back to Education Page
                                             </button></a>
-                                        <button type="submit" class="btn btn-primary">Add Education
+                                        <button type="submit" class="btn btn-primary" name="addEdu">Add Education
                                             form</button>
                                     </div>
                                 </form>

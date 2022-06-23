@@ -22,6 +22,9 @@
 <!-- /core JS files -->
 
 <!-- Theme JS files -->
+<script type="text/javascript" src="assets/js/plugins/notifications/pnotify.min.js"></script>
+<script type="text/javascript" src="assets/js/plugins/notifications/noty.min.js"></script>
+<script type="text/javascript" src="assets/js/plugins/notifications/jgrowl.min.js"></script>
 <script type="text/javascript" src="assets/js/plugins/tables/datatables/datatables.min.js"></script>
 <script type="text/javascript" src="assets/js/plugins/tables/datatables/extensions/fixed_columns.min.js"></script>
 <script type="text/javascript" src="assets/js/plugins/forms/selects/select2.min.js"></script>
@@ -34,7 +37,9 @@
 <script type="text/javascript" src="assets/js/plugins/pickers/daterangepicker.js"></script>
 <script type="text/javascript" src="assets/js/pages/datatables_extension_fixed_columns.js"></script>
 <script type="text/javascript" src="assets/js/pages/support_chat_layouts.js"></script>
+<script type="text/javascript" src="assets/js/pages/components_notifications_other.js"></script>
 
 <script type="text/javascript" src="assets/js/core/app.js"></script>
+<script type="text/javascript" src="assets/js/pages/components_notifications_pnotify.js"></script>
 <script type="text/javascript" src="assets/js/pages/dashboard.js"></script>
 <!-- /theme JS files -->

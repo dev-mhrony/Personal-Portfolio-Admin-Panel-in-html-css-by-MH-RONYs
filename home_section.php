@@ -58,74 +58,48 @@
                             <div class="modal-content">
                                 <div class="modal-header">
                                     <button type="button" class="close" data-dismiss="modal">&times;</button>
-                                    <h5 class="modal-title">Portfolio Add</h5>
+                                    <h5 class="modal-title">Update Home Section</h5>
                                 </div>
 
-                                <form action="#" class="form-horizontal">
+                                <form action="#" class="form-horizontal" action="" method="POST">
                                     <div class="modal-body">
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Name</label>
+                                            <label class="control-label col-sm-3" for="YourName">Your Name</label>
                                             <div class="col-sm-9">
-                                                <input type="text" placeholder="Type your project name"
-                                                    class="form-control">
+                                                <input type="text" placeholder="Type your name" class="form-control"
+                                                    id="YourName">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Bio</label>
+                                            <label class="control-label col-sm-3" for="Description">Description</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your project short discription "
-                                                    class="form-control">
+                                                    class="form-control" id="Description">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Catagory</label>
+                                            <label class="control-label col-sm-3" for="Link">Link</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Select or Type your catagory"
-                                                    class="form-control">
+                                                    class="form-control" id="Link">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="control-label col-sm-3">Clint Name</label>
+                                            <label class="control-label col-sm-3" for="Image">Image</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Clint Name" data-mask="+99-99-9999-9999"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Project
-                                                Language</label>
-                                            <div class="col-sm-9">
-                                                <input type="text"
-                                                    placeholder="Type your project language Ex: HTML, CSS, JavaScript"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Project Preview
-                                                Link</label>
-                                            <div class="col-sm-9">
-                                                <input type="text" placeholder="Project Preview link"
-                                                    class="form-control">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="control-label col-sm-3">Image</label>
-                                            <div class="col-sm-9">
-                                                <input type="file" placeholder="" class="form-control">
+                                                    class="form-control" id="Image">
                                             </div>
                                         </div>
                                     </div>
 
                                     <div class="modal-footer">
-                                        <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
-                                        <button type="submit" class="btn btn-primary">Submit
-                                            form</button>
+                                        <button type="button" class="btn btn-link" data-dismiss="modal">Back to
+                                            List</button>
+                                        <button type="submit" class="btn btn-primary">Update</button>
                                     </div>
                                 </form>
                             </div>
