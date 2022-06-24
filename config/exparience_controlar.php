@@ -11,16 +11,16 @@ if(isset($_POST["addExparince"])){
     if(empty($companyName) || empty($shortBio) || empty($startJob) || empty($endJob)){
         echo "All File Required";
     }else{
-        $insert_edu = "INSERT INTO `experience`(`company_name`, `short_bio`, `start_jobe_date`, `end_jobe_date`) VALUES ('{$companyName}','{$shortBio}','{$startJob}','{$endJob}')";
-        $insert_edu_data = mysqli_query($db_config, $insert_edu);
-        if($insert_edu_data == true){
-            echo  "Insert Success";
+        $insert_exp = "INSERT INTO `experience`(`company_name`, `short_bio`, `start_jobe_date`, `end_jobe_date`) VALUES ('{$companyName}','{$shortBio}','{$startJob}','{$endJob}')";
+        $insert_exp_data = mysqli_query($db_config, $insert_exp);
+        if($insert_exp_data == true){
+            $message = "Insert Success";
         }else{
-            echo "Insert Fail";
+            $message = "Insert Fail";
             
         }
     }
-    // header("location: ../exparience.php");
+    header("location: ../exparience.php");
 }
 
 

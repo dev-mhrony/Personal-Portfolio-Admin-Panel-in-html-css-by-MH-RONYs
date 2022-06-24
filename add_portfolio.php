@@ -60,13 +60,13 @@
                                     <h5 class="modal-title">Add Portfolio</h5>
                                 </div>
 
-                                <form action="#" class="form-horizontal">
+                                <form action="./config/portfolio_controlar.php" class="form-horizontal" method="POST">
                                     <div class="modal-body">
                                         <div class="form-group">
                                             <label class="control-label col-sm-3" for="projectName">Project Name</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your last Project Name"
-                                                    class="form-control" id="projectName">
+                                                    class="form-control" id="projectName" name="projectName">
                                             </div>
                                         </div>
 
@@ -74,7 +74,7 @@
                                             <label class="control-label col-sm-3" for="projectBio">Project Bio</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your project short discription "
-                                                    class="form-control" id="projectBio">
+                                                    class="form-control" id="projectBio" name="projectBio">
                                             </div>
                                         </div>
 
@@ -82,7 +82,7 @@
                                             <label class="control-label col-sm-3" for="catagory">Catagory</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type Catagory" class="form-control"
-                                                    id="catagory">
+                                                    id="catagory" name="catagory">
                                             </div>
                                         </div>
 
@@ -90,7 +90,7 @@
                                             <label class="control-label col-sm-3" for="cintName">Clint Name</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your Clint Name"
-                                                    class="form-control" id="cintName">
+                                                    class="form-control" id="cintName" name="cintName">
                                             </div>
                                         </div>
 
@@ -99,7 +99,7 @@
                                                 Language</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your Project Language"
-                                                    class="form-control" id="projectLanguage">
+                                                    class="form-control" id="projectLanguage" name="projectLanguage">
                                             </div>
                                         </div>
 
@@ -108,14 +108,14 @@
                                                 Link</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your Project Preview Link"
-                                                    class="form-control" id="projectPreview">
+                                                    class="form-control" id="projectPreview" name="projectPreview">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
                                             <label class="control-label col-sm-3">Image</label>
                                             <div class="col-sm-9">
-                                                <input type="file" class="form-control">
+                                                <input type="file" class="form-control" name="img">
                                             </div>
                                         </div>
                                     </div>
@@ -124,7 +124,8 @@
                                         <a href="portfoli.php"><button type="button" class="btn btn-link"
                                                 data-dismiss="modal">Back to Portfolio list
                                             </button></a>
-                                        <button type="submit" class="btn btn-primary">Add Portfolio</button>
+                                        <button type="submit" class="btn btn-primary" name="addPortfolio">Add
+                                            Portfolio</button>
                                     </div>
                                 </form>
                             </div>
