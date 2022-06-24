@@ -9,7 +9,7 @@ if(isset($_POST["skillSubmit"])){
     
     
     if(empty($SkillName) || empty($Percentage) || empty($Experience)){
-        echo "All File Required";
+        $message = "All File Required";
     }else{
         $insert_skill = "INSERT INTO `skill`(`skill_name`, `percentage`, `experience`) VALUES ('$SkillName','$Percentage','$Experience')";
         
@@ -22,7 +22,7 @@ if(isset($_POST["skillSubmit"])){
             
         }
     }
-    header("location: ../skill.php");
+    header("location: ../add_skill.php?msg={$message}");
 }
 
 

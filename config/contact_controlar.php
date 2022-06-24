@@ -8,7 +8,7 @@ if(isset($_POST["add_socialMedia"])){
     
     
     if(empty($socialName) || empty($SocialLink)){
-        echo "All File Required";
+        $message = "All File Required";
     }else{
         $insert_social_media = "INSERT INTO `social_media`(`social_media_name`, `social_media_link`) VALUES ('$socialName','$SocialLink')";
         
@@ -21,7 +21,7 @@ if(isset($_POST["add_socialMedia"])){
             
         }
     }
-    header("location: ../social_link.php");
+    header("location: ../add_socialmedia.php?msg={$message}");
 }
 
 

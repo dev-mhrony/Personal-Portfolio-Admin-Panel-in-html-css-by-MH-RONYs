@@ -49,6 +49,19 @@
                 <!-- ==Content area ==-->
                 <div class="content">
 
+                    <?php
+                       if(isset($_GET['msg'])){
+                                        
+                    ?>
+
+                    <div class="alert bg-success alert-styled-left">
+                        <button type="button" class="close" data-dismiss="alert"><span>&times;</span><span
+                                class="sr-only">Close</span></button>
+                        <span class="text-semibold">Good Job</span>
+                        <?php echo $_GET['msg']?>
+                    </div>
+
+                    <?php } ?>
 
 
                     <!-- Horizontal form modal -->

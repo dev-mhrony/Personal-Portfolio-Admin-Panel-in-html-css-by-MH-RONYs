@@ -11,7 +11,7 @@ if(isset($_POST["addPortfolio"])){
     $projectPreview = $_POST['projectPreview'];
     
     if(empty($projectName) || empty($projectBio) || empty($catagory) || empty($cintName) || empty($projectLanguage) || empty($projectPreview)){
-        echo "All File Required";
+        $message = "All File Required";
     }else{
         $insert_portfolio = "INSERT INTO `portfolio`(`project_name`, `project_bio`, `category`, `clint_name`, `project_language`, `project_preview_link`) VALUES ('$projectName','$projectBio','$catagory','$cintName','$projectLanguage','$projectPreview')";
         
@@ -24,7 +24,7 @@ if(isset($_POST["addPortfolio"])){
             
         }
     }
-    header("location: ../portfoli.php");
+    header("location: ../add_portfolio.php?msg={$message}");
 }
 
 

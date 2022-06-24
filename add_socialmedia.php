@@ -34,6 +34,9 @@
             <!-- /main sidebar -->
 
 
+
+
+
             <!-- Main content -->
             <div class="content-wrapper">
 
@@ -60,6 +63,23 @@
                                     <h5 class="modal-title">Add Social Media</h5>
                                 </div>
 
+                                <br>
+
+                                <?php
+                                    if(isset($_GET['msg'])){
+                                        
+                                    
+                                ?>
+
+                                <div class="alert bg-success alert-styled-left">
+                                    <button type="button" class="close" data-dismiss="alert"><span>&times;</span><span
+                                            class="sr-only">Close</span></button>
+                                    <span class="text-semibold">Good Job</span>
+                                    <?php echo $_GET['msg']?>
+                                </div>
+
+                                <?php } ?>
+
                                 <form action="./config/contact_controlar.php" class="form-horizontal" method="POST">
                                     <div class="modal-body">
                                         <div class="form-group">
@@ -85,7 +105,8 @@
                                         <a href="social_link.php"><button type="button" class="btn btn-link"
                                                 data-dismiss="modal">Back to Social Media List
                                             </button></a>
-                                        <button type="submit" class="btn btn-primary" name="add_socialMedia">Add Social
+                                        <button type="submit" class="btn btn-primary" name="add_socialMedia">Add
+                                            Social
                                             Media</button>
                                     </div>
                                 </form>

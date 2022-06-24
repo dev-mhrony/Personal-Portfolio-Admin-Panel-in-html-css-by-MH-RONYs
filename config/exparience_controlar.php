@@ -9,7 +9,7 @@ if(isset($_POST["addExparince"])){
     $endJob = $_POST['endJob'];
     
     if(empty($companyName) || empty($shortBio) || empty($startJob) || empty($endJob)){
-        echo "All File Required";
+        $message = "All File Required";
     }else{
         $insert_exp = "INSERT INTO `experience`(`company_name`, `short_bio`, `start_jobe_date`, `end_jobe_date`) VALUES ('{$companyName}','{$shortBio}','{$startJob}','{$endJob}')";
         $insert_exp_data = mysqli_query($db_config, $insert_exp);
@@ -20,7 +20,7 @@ if(isset($_POST["addExparince"])){
             
         }
     }
-    header("location: ../exparience.php");
+    header("location: ../add_exparience.php?msg={$message}");
 }
 
 

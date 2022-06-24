@@ -9,7 +9,7 @@ if(isset($_POST["addEdu"])){
     $endYear = $_POST['endYear'];
     
     if(empty($educationName) || empty($shortBio) || empty($startYear) || empty($startYear)){
-        echo "All File Required";
+        $message = "All File Required";
     }else{
         $insert_edu = "INSERT INTO `education`(`education_name`, `short_bio`, `start_year`, `end_year`) VALUES ('{$educationName}','{$shortBio}','{$startYear}','{$endYear}')";
         $insert_edu_data = mysqli_query($db_config, $insert_edu);
@@ -20,7 +20,7 @@ if(isset($_POST["addEdu"])){
             
         }
     }
-    header("location: ../education.php");
+    header("location: ../education_add_info.php?msg={$message}");
 }
 
 
