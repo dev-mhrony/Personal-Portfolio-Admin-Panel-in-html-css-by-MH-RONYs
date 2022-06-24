@@ -2,29 +2,27 @@
 
 include "./server_connect.php";
 
-if(isset($_POST["addPortfolio"])){
-    $projectName = $_POST['projectName'];
-    $projectBio = $_POST['projectBio'];
-    $catagory = $_POST['catagory'];
-    $cintName = $_POST['cintName'];
-    $projectLanguage = $_POST['projectLanguage'];
-    $projectPreview = $_POST['projectPreview'];
+if(isset($_POST["skillSubmit"])){
+    $SkillName = $_POST['SkillName'];
+    $Percentage = $_POST['Percentage'];
+    $Experience = $_POST['Experience'];
     
-    if(empty($projectName) || empty($projectBio) || empty($catagory) || empty($cintName) || empty($projectLanguage) || empty($projectPreview)){
+    
+    if(empty($SkillName) || empty($Percentage) || empty($Experience)){
         echo "All File Required";
     }else{
-        $insert_portfolio = "INSERT INTO `portfolio`(`project_name`, `project_bio`, `category`, `clint_name`, `project_language`, `project_preview_link`) VALUES ('$projectName','$projectBio','$catagory','$cintName','$projectLanguage','$projectPreview')";
+        $insert_skill = "INSERT INTO `skill`(`skill_name`, `percentage`, `experience`) VALUES ('$SkillName','$Percentage','$Experience')";
         
-        $insert_port_list = mysqli_query($db_config, $insert_portfolio);
+        $insert_skill_list = mysqli_query($db_config, $insert_skill);
     
-        if($insert_port_list == true){
+        if($insert_skill_list == true){
             $message = "Insert Success";
         }else{
             $message = "Insert Fail";
             
         }
     }
-    header("location: ../portfoli.php");
+    header("location: ../skill.php");
 }
 
 

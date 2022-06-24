@@ -60,13 +60,13 @@
                                     <h5 class="modal-title">Add Skill</h5>
                                 </div>
 
-                                <form action="#" class="form-horizontal">
+                                <form action="./config/skill_controlar.php" class="form-horizontal" method="POST">
                                     <div class="modal-body">
                                         <div class="form-group">
                                             <label class="control-label col-sm-3" for="Skill"> Skill Name</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your last Skill Name"
-                                                    class="form-control" id="Skill">
+                                                    class="form-control" id="Skill" name="SkillName">
                                             </div>
                                         </div>
 
@@ -74,7 +74,7 @@
                                             <label class="control-label col-sm-3" for="Percentage"> Percentage</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your Percentage "
-                                                    class="form-control" id="Percentage">
+                                                    class="form-control" id="Percentage" name="Percentage">
                                             </div>
                                         </div>
 
@@ -82,7 +82,7 @@
                                             <label class="control-label col-sm-3" for="Experience">Experience</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type Experience Year"
-                                                    class="form-control" id="Experience">
+                                                    class="form-control" id="Experience" name="Experience">
                                             </div>
                                         </div>
                                     </div>
@@ -91,7 +91,8 @@
                                         <a href="skill.php"><button type="button" class="btn btn-link"
                                                 data-dismiss="modal">Back to Skill list
                                             </button></a>
-                                        <button type="submit" class="btn btn-primary">Add Skill</button>
+                                        <button type="submit" class="btn btn-primary" name="skillSubmit">Add
+                                            Skill</button>
                                     </div>
                                 </form>
                             </div>

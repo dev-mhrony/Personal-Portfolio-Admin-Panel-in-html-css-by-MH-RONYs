@@ -60,14 +60,14 @@
                                     <h5 class="modal-title">Add Social Media</h5>
                                 </div>
 
-                                <form action="#" class="form-horizontal">
+                                <form action="./config/contact_controlar.php" class="form-horizontal" method="POST">
                                     <div class="modal-body">
                                         <div class="form-group">
                                             <label class="control-label col-sm-3" for="Social"> Social Media
                                                 Name</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your Social Media Name"
-                                                    class="form-control" id="Social">
+                                                    class="form-control" id="Social" name="socialName">
                                             </div>
                                         </div>
 
@@ -76,7 +76,7 @@
                                                 Link</label>
                                             <div class="col-sm-9">
                                                 <input type="text" placeholder="Type your Social Media Link "
-                                                    class="form-control" id="SocialLink">
+                                                    class="form-control" id="SocialLink" name="SocialLink">
                                             </div>
                                         </div>
                                     </div>
@@ -85,7 +85,8 @@
                                         <a href="social_link.php"><button type="button" class="btn btn-link"
                                                 data-dismiss="modal">Back to Social Media List
                                             </button></a>
-                                        <button type="submit" class="btn btn-primary">Add Social Media</button>
+                                        <button type="submit" class="btn btn-primary" name="add_socialMedia">Add Social
+                                            Media</button>
                                     </div>
                                 </form>
                             </div>
