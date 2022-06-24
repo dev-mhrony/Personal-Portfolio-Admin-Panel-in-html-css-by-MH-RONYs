@@ -52,7 +52,7 @@
                 <div class=" content">
 
 
-                    <!-- ================================ Pop UP Windo================ -->
+                    <!-- ================================== Pop UP Windo================ -->
                     <div id="modal_form_horizontal" class="modal fade">
                         <div class="modal-dialog modal-lg">
                             <div class="modal-content">

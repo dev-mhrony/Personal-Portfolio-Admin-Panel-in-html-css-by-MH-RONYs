@@ -19,7 +19,7 @@
 <script type="text/javascript" src="assets/js/core/libraries/jquery.min.js"></script>
 <script type="text/javascript" src="assets/js/core/libraries/bootstrap.min.js"></script>
 <script type="text/javascript" src="assets/js/plugins/loaders/blockui.min.js"></script>
-<!-- /core JS files -->
+<!-- /core JS files ==-->
 
 <!-- Theme JS files -->
 <script type="text/javascript" src="assets/js/plugins/notifications/pnotify.min.js"></script>

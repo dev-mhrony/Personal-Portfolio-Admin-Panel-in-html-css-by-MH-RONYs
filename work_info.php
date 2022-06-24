@@ -14,7 +14,7 @@
 
 <body>
 
-    <!-- Main navbar -->
+    <!-- ===Main navbar ===-->
 
 
     <?php

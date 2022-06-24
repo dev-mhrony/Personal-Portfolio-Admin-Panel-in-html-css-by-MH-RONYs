@@ -77,7 +77,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- /cover area -->
+                        <!-- ==cover area== -->
 
 
 

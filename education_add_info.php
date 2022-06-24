@@ -47,7 +47,7 @@
                 </div>
                 <!-- /page header -->
 
-                <!-- Content area -->
+                <!-- =====Content area=== -->
                 <div class="content">
 
                     <!-- Horizontal form modal -->

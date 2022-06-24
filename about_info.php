@@ -13,8 +13,7 @@
 
 <body>
 
-    <!-- Main navbar -->
-
+    <!-- Main navbar== -->
 
     <?php
 	include "./include_section/top_navbar.php";

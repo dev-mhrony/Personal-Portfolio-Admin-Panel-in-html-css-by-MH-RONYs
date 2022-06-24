@@ -69,7 +69,7 @@
                                             </ul>
                                         </div>
                                     </div>
-                                    <!--==============================================================  -->
+                                    <!--================================================================  -->
                                     <!-- Horizontal form modal -->
                                     <div id="modal_form_horizontal" class="modal fade">
                                         <div class="modal-dialog modal-lg">

@@ -111,7 +111,7 @@
                     <!-- Dashboard content -->
                     <div class="row">
                         <div class="col-lg-12">
-                            <!-- Quick stats boxes -->
+                            <!-- ===Quick stats boxes=== -->
                             <div class="row">
 
 
